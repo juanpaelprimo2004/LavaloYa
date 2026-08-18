@@ -19,17 +19,166 @@
     </header>
     <div class="canva">
         <div class="parent">
-            <div class="div1">1</div>
-            <div class="div2">2</div>
-            <div class="div3">3</div>
-            <div class="div4">4</div>
-            <div class="div5">5</div>
-            <div class="div6">6</div>
-            <div class="div7">7</div>
-            <div class="div8">8</div>
-            <div class="div9">9</div>
+            <div class="canvas-card div1" tabindex="0" role="button" aria-label="Abrir información de socios clave">
+                <div class="card-title">SOCIOS CLAVE</div>
+                <ul class="card-list">
+                    <li>Proveedores de hosting y servicios tecnológicos</li>
+                    <li>Proveedores de mensajería / WhatsApp</li>
+                    <li>Empresas de medios de pago</li>
+                    <li>Proveedores de equipos para parqueaderos</li>
+                    <li>Aliados locales del sector automotriz</li>
+                    <li>Establecimientos piloto para la validación del sistema</li>
+                </ul>
+            </div>
+            <div class="canvas-card div2" tabindex="0" role="button" aria-label="Abrir información de actividades clave">
+                <div class="card-title">ACTIVIDADES CLAVE</div>
+                <ul class="card-list">
+                    <li>Desarrollo y mantenimiento del software</li>
+                    <li>Soporte a clientes</li>
+                    <li>Gestión de suscripciones</li>
+                    <li>Validación y mejora continua del sistema</li>
+                    <li>Integración de servicios externos</li>
+                    <li>Comercialización y demostraciones</li>
+                </ul>
+            </div>
+            <div class="canvas-card div3" tabindex="0" role="button" aria-label="Abrir información de estructura de costos">
+                <div class="card-title">ESTRUCTURA DE COSTOS</div>
+                <ul class="card-list">
+                    <li>Hosting y servidores</li>
+                    <li>Base de datos</li>
+                    <li>Dominio</li>
+                    <li>Servicios de mensajería</li>
+                    <li>Desarrollo y mantenimiento del software</li>
+                    <li>Soporte técnico</li>
+                    <li>Marketing y adquisición de clientes</li>
+                </ul>
+            </div>
+            <div class="canvas-card div4" tabindex="0" role="button" aria-label="Abrir información de recursos clave">
+                <div class="card-title">RECURSOS CLAVE</div>
+                <ul class="card-list">
+                    <li>Plataforma web y base de datos</li>
+                    <li>Código fuente y arquitectura del sistema</li>
+                    <li>Infraestructura en la nube</li>
+                    <li>Equipo de desarrollo y soporte</li>
+                    <li>Catálogo de servicios</li>
+                    <li>Información operativa generada por los clientes</li>
+                </ul>
+            </div>
+            <div class="canvas-card div5" tabindex="0" role="button" aria-label="Abrir información de propuesta de valor">
+                <div class="card-title">PROPUESTA DE VALOR</div>
+                <ul class="card-list">
+                    <li>Centralizar la administración del parqueadero y los servicios automotrices</li>
+                    <li>Controlar las entradas, salidas y ocupación de espacios</li>
+                    <li>Registrar los servicios realizados a cada vehículo</li>
+                    <li>Controlar pagos e ingresos</li>
+                    <li>Mantener un historial de clientes y vehículos</li>
+                    <li>Reducir registros manuales y errores</li>
+                    <li>Facilitar la administración diaria del negocio</li>
+                    <li>Permitir agregar nuevos servicios en el futuro</li>
+                </ul>
+            </div>
+            <div class="canvas-card div6" tabindex="0" role="button" aria-label="Abrir información de relación con los clientes">
+                <div class="card-title">RELACIÓN CON LOS CLIENTES</div>
+                <ul class="card-list">
+                    <li>Prueba gratuita inicial</li>
+                    <li>Acompañamiento durante la implementación</li>
+                    <li>Soporte técnico</li>
+                    <li>Atención directa por canales digitales</li>
+                    <li>Actualizaciones continuas del sistema</li>
+                    <li>Comunicación de nuevas funcionalidades</li>
+                </ul>
+            </div>
+            <div class="canvas-card div7" tabindex="0" role="button" aria-label="Abrir información de canales">
+                <div class="card-title">CANALES</div>
+                <ul class="card-list">
+                    <li>Venta directa</li>
+                    <li>Demostraciones presenciales</li>
+                    <li>WhatsApp</li>
+                    <li>Redes sociales</li>
+                    <li>Página web</li>
+                    <li>Referidos</li>
+                    <li>Alianzas con negocios del sector automotriz</li>
+                </ul>
+            </div>
+            <div class="canvas-card div8" tabindex="0" role="button" aria-label="Abrir información de fuentes de ingreso">
+                <div class="card-title">FUENTES DE INGRESOS</div>
+                <ul class="card-list">
+                    <li>Suscripción mensual al sistema SaaS</li>
+                    <li>Plan Básico</li>
+                    <li>Plan Estándar</li>
+                    <li>Plan Pro</li>
+                    <li>Cobro por funcionalidades premium</li>
+                    <li>Servicios adicionales de mensajería cuando se supere el límite incluido</li>
+                    <li>Futuras integraciones o módulos avanzados</li>
+                </ul>
+            </div>
+            <div class="canvas-card div9" tabindex="0" role="button" aria-label="Abrir información de segmentos de clientes">
+                <div class="card-title">SEGMENTOS DE CLIENTES</div>
+                <ul class="card-list">
+                    <li>Propietarios de parqueaderos pequeños y medianos</li>
+                    <li>Parqueaderos que ofrecen servicio de lavadero</li>
+                    <li>Establecimientos con servicios automotrices complementarios</li>
+                    <li>Administradores de negocios que buscan digitalizar su operación</li>
+                </ul>
+            </div>
         </div>
     </div>
+
+    <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="close-modal" type="button" aria-label="Cerrar ventana">×</button>
+            <h2 id="modalTitle">Título</h2>
+            <ul id="modalList"></ul>
+        </div>
+    </div>
+
+    <script>
+        const cards = document.querySelectorAll('.canvas-card');
+        const modalBackdrop = document.getElementById('modalBackdrop');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalList = document.getElementById('modalList');
+        const closeModalButton = document.querySelector('.close-modal');
+
+        const openModal = (card) => {
+            const title = card.querySelector('.card-title').textContent.trim();
+            const list = card.querySelector('.card-list').cloneNode(true);
+            modalTitle.textContent = title;
+            modalList.innerHTML = '';
+            modalList.appendChild(list);
+            modalBackdrop.classList.add('open');
+            modalBackdrop.setAttribute('aria-hidden', 'false');
+            document.body.classList.add('modal-open');
+        };
+
+        const closeModal = () => {
+            modalBackdrop.classList.remove('open');
+            modalBackdrop.setAttribute('aria-hidden', 'true');
+            document.body.classList.remove('modal-open');
+        };
+
+        cards.forEach((card) => {
+            card.addEventListener('click', () => openModal(card));
+            card.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault();
+                    openModal(card);
+                }
+            });
+        });
+
+        closeModalButton.addEventListener('click', closeModal);
+        modalBackdrop.addEventListener('click', (event) => {
+            if (event.target === modalBackdrop) {
+                closeModal();
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && modalBackdrop.classList.contains('open')) {
+                closeModal();
+            }
+        });
+    </script>
 
 </body>
 
